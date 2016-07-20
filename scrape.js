@@ -38,7 +38,7 @@ function parseArticle(url) {
 	    	publisher: "Slingshot Collective",
 	    	content: parsedArticles
 	    };
-	    new Epub(book, "epub/" + filename + ".epub");
+	    new Epub(book, "cloud_portal/" + filename + ".epub");
 	  } else {
 	    console.log("error on issue " + error);
 	  }
