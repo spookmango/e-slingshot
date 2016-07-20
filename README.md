@@ -1,4 +1,4 @@
-<ul>
+<h1>Radical Ebooks, Get Your Radical Ebooks Here!!!</h1></br><ul>
 <li><a href="https://spookmango.github.io/e-slingshot/Slingshot_April_May_2004_(4_8_04).epub">Slingshot_April_May_2004_(4_8_04).epub</a></li>
 <li><a href="https://spookmango.github.io/e-slingshot/Slingshot_April_May_2004_(4_8_04).mobi">Slingshot_April_May_2004_(4_8_04).mobi</a></li>
 <li><a href="https://spookmango.github.io/e-slingshot/Slingshot_Autumn_1998_(8_5_98).epub">Slingshot_Autumn_1998_(8_5_98).epub</a></li>
