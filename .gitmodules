@@ -1,0 +1,4 @@
+[submodule "cloud_portal"]
+	path = cloud_portal
+	url = https://github.com/spookmango/e-slingshot.git
+	branch = gh-pages
