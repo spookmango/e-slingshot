@@ -8,13 +8,11 @@ request(archiveURL, function(error, response, body) {
 	if(!error) {
 		var $ = cheerio.load(body);
 		var h = $('.entry-content').find('a');
-		var urls = [];
 		var base = "http://slingshot.tao.ca";
 		for (var i = 0; i < h.length; i++){
 			var href = h[i].attribs.href;
 			parseArticle(href.indexOf(base) !== -1 ? href : base + href);
 		}
-		console.log(urls);
 	} else {
 		console.log("error on archive " + error);
 	}
@@ -27,7 +25,7 @@ function parseArticle(url) {
 	    var $ = cheerio.load(body);
 	    var titleEl = $("title").text();
 	    var title = "Slingshot " + titleEl.substring(0, titleEl.indexOf('|')).trim();
-	    var filename = title.replace(/( |\/)/g, '_'); // sanitize file name
+	    var filename = title.replace(/( |\/|,|#)/g, '_'); // sanitize file name
 	    var articles = $("article");
 	    var parsedArticles = [];
 	    for (var i = 0; i < articles.length; i++) 
