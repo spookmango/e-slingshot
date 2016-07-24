@@ -2,7 +2,7 @@
   "name"         : "e-slingshot",
   "version"      : "0.0.1",
   "description"  : "Convert slingshot issues to epub and mobi",
-  "main"         : "test.js",
+  "main"         : "scrape.js",
   "author"       : "spookmango",
   "dependencies" : {
     "request"    : "latest",
